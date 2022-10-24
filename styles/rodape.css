@@ -5,3 +5,80 @@ hr{
     background-color: var(--branco);
     padding: 1em;
 }
+
+.rodape__container{
+    display: none;
+
+}
+@media screen and (min-width:1024px){
+
+    .rodape__titulo{
+        display: none;
+    }
+    .rodape__titulo2{
+        font-size: 16px;
+        
+    }
+
+    .rodape__container{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .texto__rodape{
+        margin:0.3em;
+        color: black;
+        font-size: 16px;
+    }
+    .rodape__educacao{
+        padding: 1em;
+    }
+    .rodape__link{
+        align-items: center;
+        margin-left: 4em;
+    }
+
+
+    .texto__container{
+        display: flex;
+        padding: 1em 4em;
+    }
+}
+@media screen and (min-width:1728px){
+
+    .rodape__titulo{
+        display: none;
+    }
+    .rodape__titulo2{
+        font-size: 24px;
+        
+    }
+
+    .rodape__container{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .texto__rodape{
+        margin:0.5em;
+        color: black;
+        font-size: 20px;
+    }
+    .rodape__educacao{
+        padding: 1em;
+    }
+    .rodape__link{
+        align-items: center;
+        margin-left: 9em;
+    }
+
+
+    .texto__container{
+        display: flex;
+        padding: 1em 9em;
+    }
+}

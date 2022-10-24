@@ -35,6 +35,8 @@ a{
 }
 
 @media screen and (min-width:1024px){
+    
+    
     .topicos__titulo{
         font-size: 24px;
     }
@@ -49,9 +51,17 @@ a{
     }
     
 }
+@media screen and (min-width:1360px){
+    .topico__lista{
+        justify-content: center;
+        padding: 1em 30% ;
+
+    }
+    
+}
 @media screen and (min-width:1728px){
     .ul.topicos{
-      padding: 3em 30vw;  
+      padding: 3em 0vw;  
 
     }
     .section.topicos{
